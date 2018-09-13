@@ -3,6 +3,8 @@
   "compilerOptions": {
     "outDir": "../temp/out-tsc",
     "module": "es2015",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
     "types": [
       "webpack"
     ],

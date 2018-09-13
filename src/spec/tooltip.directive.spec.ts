@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { fireEvent } from '../../scripts/helpers';
-import { TooltipModule } from '../tooltip/tooltip.module';
+import { TooltipModule } from '../tooltip/src/tooltip.module';
 
 @Component({
   selector: 'test-tooltip',

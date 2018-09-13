@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 
-import { RatingComponent } from '../rating/rating.component';
-import { RatingModule } from '../rating/rating.module';
+import { RatingComponent } from '../rating/src/rating.component';
+import { RatingModule } from '../rating/src/rating.module';
 
 @Component({
   selector: 'rating-test',

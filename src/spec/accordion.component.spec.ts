@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
-import { AccordionConfig } from '../accordion/accordion.config';
+import { AccordionConfig } from '../accordion/src/accordion.config';
 
-import { AccordionModule } from '../accordion/accordion.module';
+import { AccordionModule } from '../accordion/src/accordion.module';
 
 @Component({
   selector: 'accordion-test',

@@ -1,4 +1,4 @@
-import { Time, TimepickerComponentState } from '../../timepicker/timepicker.models';
+import { Time, TimepickerComponentState } from '../../timepicker/src/timepicker.models';
 import {
   isValidDate,
   isValidLimit,
@@ -17,7 +17,7 @@ import {
   isSecondInputValid,
   isInputLimitValid,
   isInputValid
-} from '../../timepicker/timepicker.utils';
+} from '../../timepicker/src/timepicker.utils';
 
 const controls: TimepickerComponentState = {
   min: testTime(3, 0, 0),

@@ -127,7 +127,7 @@ export const demoComponentContent: ContentSection[] = [
           define it in your <code>@NgModule</code> using function <code>defineLocale</code></p>
           <p>Example: </p>
           <code>import { defineLocale } from 'ngx-bootstrap/chronos';</code><br>
-          <code>import { deLocale } from 'ngx-bootstrap/locale';</code><br>
+          <code>import { deLocale } from 'ngx-bootstrap/chronos';</code><br>
           <code>defineLocale('de', deLocale);</code>
           <br>
           <br>

@@ -5,8 +5,8 @@ import {
   fakeAsync,
   tick
 } from '@angular/core/testing';
-import { PagerComponent } from '../pagination/pager.component';
-import { PaginationModule } from '../pagination/pagination.module';
+import { PagerComponent } from '../pagination/src/pager.component';
+import { PaginationModule } from '../pagination/src/pagination.module';
 import { fireEvent } from '../../scripts/helpers';
 
 describe('Component: Pager:', () => {

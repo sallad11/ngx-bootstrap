@@ -9,7 +9,7 @@ import {
   SortableComponent,
   SortableItem,
   SortableModule
-} from '../sortable/index';
+} from '../sortable/src/index';
 
 const HEROES: string[] = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
 const HEROES_OBJ: any[] = [

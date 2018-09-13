@@ -1,9 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { TabsetConfig } from '../tabs/tabset.config';
+import { TabsetConfig } from '../tabs/src/tabset.config';
 
-import { TabsModule } from '../tabs/tabs.module';
-import { TabsetComponent } from '../tabs/tabset.component';
+import { TabsModule } from '../tabs/src/tabs.module';
+import { TabsetComponent } from '../tabs/src/tabset.component';
 
 @Component({
   selector: 'tabs-test',

@@ -1,9 +1,9 @@
 import { ChangeDetectorRef, Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AlertComponent } from '../alert/alert.component';
-import { AlertConfig } from '../alert/alert.config';
-import { AlertModule } from '../alert/alert.module';
+import { AlertComponent } from '../alert/src/alert.component';
+import { AlertConfig } from '../alert/src/alert.config';
+import { AlertModule } from '../alert/src/alert.module';
 
 @Component({selector: 'alert-test', template: ''})
 class TestAlertComponent extends AlertComponent {

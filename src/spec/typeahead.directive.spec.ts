@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { Observable, of } from 'rxjs';
 import { fireEvent } from '../../scripts/helpers';
-import { TypeaheadMatch } from '../typeahead/typeahead-match.class';
-import { TypeaheadDirective } from '../typeahead/typeahead.directive';
-import { TypeaheadModule } from '../typeahead/typeahead.module';
+import { TypeaheadMatch } from '../typeahead/src/typeahead-match.class';
+import { TypeaheadDirective } from '../typeahead/src/typeahead.directive';
+import { TypeaheadModule } from '../typeahead/src/typeahead.module';
 
 interface State {
   id: number;

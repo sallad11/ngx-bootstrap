@@ -10,7 +10,7 @@ import {
   fiLocale, glLocale,
   huLocale, idLocale, itLocale, jaLocale, koLocale, mnLocale, nlBeLocale, nlLocale, plLocale, ptBrLocale, ruLocale,
   roLocale, skLocale, slLocale, svLocale, thLocale, trLocale, zhCnLocale
-} from 'ngx-bootstrap/locale';
+} from 'ngx-bootstrap/chronos';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 
 import { DocsModule } from '../../docs';

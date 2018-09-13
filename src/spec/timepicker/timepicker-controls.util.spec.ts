@@ -1,4 +1,4 @@
-import { TimeChangeEvent, TimepickerComponentState, TimepickerControls } from '../../timepicker/timepicker.models';
+import { TimeChangeEvent, TimepickerComponentState, TimepickerControls } from '../../timepicker/src/timepicker.models';
 import {
   canChangeValue,
   canChangeHours,
@@ -6,7 +6,7 @@ import {
   canChangeSeconds,
   getControlsValue,
   timepickerControls
-} from '../../timepicker/timepicker-controls.util';
+} from '../../timepicker/src/timepicker-controls.util';
 
 function testTime(hours?: number, minutes?: number, seconds?: number) {
   const time = new Date();
